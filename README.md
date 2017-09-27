@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Long Khoa</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/css?family=Cutive%20Mono:400" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body  data-spy="scroll" data-target=".navbar" data-offset='50'>
+<div class='container'>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header navbar-brand"><a href="draft.html">LONG KHOA</a></div>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+     	</button>
+		<div class='collapse navbar-collapse' id='myNav'>
+			<ul class="nav navbar-nav navbar-right">
+				<li id='home'><a href="#header">About Me</a></li>
+				<li id='about'><a href="#portfolio">My Project</a></li>
+				<li id='contact1'><a href="#contact">Contact</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<!--End of nav-->
+<!--Header part-->
+<div class='margin' id='header'>
+			<div class="container" id="header-content">
+				<div class="row" >
+					<div class="col-xs-12 col-sm-6" id='quote'>
+						<h1>Work with Passion</h1>
+						<p><q>I’d rather be a failure at something I love than a success at something I hate</q><sub>George Burns</sub></p>
+					</div>
+					<div class='col-xs-12 col-sm-6' id='info'>
+						<h1>About</h1>
+						<p>I am currently a second year M.Sc accounting student, but I decided to chase web developer career after realizing what I truly love: <span>Coding</span>. Completing FreeCodeCamp front-end certificate after 2 months I am now looking for an internship opportunity.</p>
+					</div>
+				</div>
+			</div>		
+</div>
+<div class="container-fluid">
+	<hr>
+</div>	
+<!--end of header-->
+<!--portfolio-->
+<div class="container-fluid margin" id="portfolio">
+  <div class="row h1" id='projectHeader'>My Projects</div>
+  <div class="row">
+	 <div class="col-md-6 portfolio-item">
+	 	<a href="https://codepen.io/khoathanglong/full/zdMyjw/" class='thumbnail' target="blank">
+	 		<img class='img-responsive' src="calculator.png" alt="Calculator Image">
+	 			<div class="caption text-center">
+					The Calculator: Get stuck with Maths, try my magic calculator!
+				</div>
+	 	</a>
+	 </div>
+	 <div class="col-md-6 portfolio-item">
+	 	<a href="https://codepen.io/khoathanglong/full/dVXEWM/" class='thumbnail' target="blank">
+	 		<img class='img-responsive' src="tic-tac-toe.png" alt="tic-tac-toe image">
+	 			<div class="caption text-center">
+					The Tic-tac-toe Game: Do you as smart as you think? Beat me!
+				</div>
+	 	</a>
+	 </div>
+	 <div class="col-md-6  portfolio-item">
+	 	<a href="https://codepen.io/khoathanglong/full/KXzOzq/" class='thumbnail' target="blank">
+	 		<img class='img-responsive' src="simon.png" alt="Simon Game Image">
+	 			<div class="caption text-center">
+					The Simon Game: Love music? Enjoy my challenge!
+				</div>
+	 	</a>
+	 </div>
+	 <div class="col-md-6 portfolio-item">
+	 	<a href="https://codepen.io/khoathanglong/full/PJzvWj/" class='thumbnail' target="blank">
+	 		<img class='img-responsive' src="twitch.png" alt="Twitch streaming image">
+	 			<div class="caption text-center">
+					Twitch.tv Streaming: Follow your favorite Channels!
+				</div>
+	 	</a>
+	 </div>
+	 <div class="col-md-6 portfolio-item">
+	 	<a href="https://codepen.io/khoathanglong/full/OxXYpx/" class='thumbnail' target="blank">
+	 		<img class='img-responsive' src="wiki.png" alt="searching image">
+	 			<div class="caption text-center">
+					Wiki Search Tool: Search anything on wiki with my tool!
+				</div>
+	 	</a>
+	 </div>
+	 <div class="col-md-6 portfolio-item">
+	 	<a href="https://codepen.io/khoathanglong/full/wrzodP/" class='thumbnail' target="blank">
+	 		<img class='img-responsive ' src="quote.png" alt="quote image">
+	 			<div class="caption text-center">
+					The Quote Machine: Enjoy beautiful quotes everyday!
+				</div>
+	 	</a>
+	 </div>
+  </div>
+</div>
+<div class="container-fluid">
+		<hr>
+</div>	
+<!--end of portfolio-->
+<!--Contact-->
+<div id="contact" class="container-fluid	">
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 text-center"><p>Coded by Long Khoa</p></div>
+				<div class="col-md-5 text-center"><p><p><i class="fa fa-envelope"></i> thanglong.khoa@aalto.fi</p></div>
+				<div class="col-md-4 text-center"><p><i class="fa fa-mobile"></i> +358 469527192</p></div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+<style>
+body{
+	/*background-color: #9BD770;
+	font-family: 'Lora', serif;*/
+	color: black ;
+	font-family: "Cutive Mono"
+	}
+.navbar{
+	font-size: 1.1em;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: 'Lora', serif;
+	background-color: white;
+}
+.navbar-header a{
+	color: black;
+	font-weight: 900;
+	font-size:1.1em ;
+	font-family: 'Lora', serif;
+}
+.margin{
+		margin: 50px 0;
+		padding-top: 50px;
+	}
+#header-content{
+	margin-bottom: 50px;
+	margin-top: 100px;
+
+
+}
+#header h1{
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: uppercase;
+	word-spacing: 0px;
+}
+#info{
+	padding-right: 0;
+	padding-left: 20px;
+}
+span{
+	font-weight: bold;
+}
+#projectHeader{
+	padding-left: 15px;
+	font-weight: bold;
+}
+#portfolio .row{
+	margin-right:0px;
+	margin-left: 0;
+}
+.portfolio-item {
+	
+	padding-left: 10px;
+}
+.portfolio-item .caption{
+	font-weight: 600;
+	font-size: 1.1em;
+	background: #F5F9DC;}
+#contact > footer h1,p {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+hr{
+	margin: 50px;
+	border-color: grey;
+}
+#contact > footer h1,p {
+	display: inline-block;
+}
+#contact{
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+		
+</style>
+
+</html>
